@@ -1,0 +1,42 @@
+{
+  "name": "exoskeleton.css",
+  "version": "1.0.0",
+  "description": "The revamped skeleton for new websites. Forked from Skeleton.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queued/exoskeleton.css.git"
+  },
+  "main": "src/exoskeleton.scss",
+  "scripts": {
+    "build": "gulp build:dev",
+    "build:prod": "gulp build:prod"
+  },
+  "keywords": [
+    "skeleton",
+    "css",
+    "bones",
+    "wireframe",
+    "base",
+    "reboot",
+    "base",
+    "css",
+    "exo"
+  ],
+  "author": "All Unser Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/queued/exoskeleton.css/issues"
+  },
+  "homepage": "https://github.com/queued/exoskeleton.css#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "open-color": "^1.6.3",
+    "vinyl-named": "^1.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "autoprefixer": "^9.4.3"
+  }
+}
